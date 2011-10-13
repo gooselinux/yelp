@@ -1,0 +1,22 @@
+diff -up yelp-2.27.4/src/yelp-main.c.use-pango yelp-2.27.4/src/yelp-main.c
+--- yelp-2.27.4/src/yelp-main.c.use-pango	2009-08-06 20:18:11.000000000 -0400
++++ yelp-2.27.4/src/yelp-main.c	2009-08-24 23:20:45.955969896 -0400
+@@ -412,18 +412,6 @@ main (int argc, char **argv) 
+ #endif /* WITH_SMCLIENT */
+ 
+ 	if (private || !main_is_running ()) {
+-		const gchar          *env;
+-
+-		/* workaround for bug #329461 */
+-		env = g_getenv ("MOZ_ENABLE_PANGO");
+-		
+-		if (env == NULL ||
+-		    *env == '\0' ||
+-		    g_str_equal(env, "0")) 
+-			{
+-				g_setenv ("MOZ_DISABLE_PANGO", "1", TRUE);
+-			}
+-		
+ 		if (session_started) {
+ 			main_restore_session ();
+ 		} else {

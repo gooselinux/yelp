@@ -1,0 +1,18 @@
+--- yelp-2.15.5/data/scrollkeeper.xml.fedora-docs	2006-07-27 12:25:20.000000000 -0400
++++ yelp-2.15.5/data/scrollkeeper.xml	2006-07-27 12:25:50.000000000 -0400
+@@ -9,6 +9,7 @@
+     <subject category="GNOME|Settings"/>
+     <subject category="GNOME|Applications|Desktop Preferences"/>
+     <subject category="GNOME|Preferences"/>
++    <subject category="General|Linux|Distributions|Other"/>
+   </toc>
+   <toc id="DesktopApplets">
+     <subject category="GNOME|Applets"/>
+@@ -243,7 +244,6 @@
+     <subject category="General|Linux|Distributions|Red Hat"/>
+     <subject category="General|Linux|Distributions|Slackware"/>
+     <subject category="General|Linux|Distributions|SuSE"/>
+-    <subject category="General|Linux|Distributions|Other"/>
+     <subject category="General|Linux|General"/>
+     <subject category="General|Linux|Other"/>
+     <subject category="General|Other"/>

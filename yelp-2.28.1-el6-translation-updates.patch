@@ -1,0 +1,2063 @@
+diff -up yelp-2.28.1/po/bn_IN.po.el6-translation-updates yelp-2.28.1/po/bn_IN.po
+--- yelp-2.28.1/po/bn_IN.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/bn_IN.po	2010-06-11 17:48:14.872531020 -0400
+@@ -1,18 +1,18 @@
+ # translation of bn_IN.po to Bengali INDIA
+ # The Bengali India translation for yelp.
+-# Copyright (C) 2003, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
++# Copyright (C) 2003, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
+ # This file is distributed under the same license as the yelp package.
+ #
+ # Khandakar Mujahidul Islam <suzan229@yahoo.com>, 2003-2005.
+ # Runa Bhattacharjee <runabh@gmail.com>, 2007.
+ # Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+-# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009.
++# Runa Bhattacharjee <runab@redhat.com>, 2008, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: bn_IN\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-07 00:18+0000\n"
+-"PO-Revision-Date: 2009-08-25 16:09+0530\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
++"PO-Revision-Date: 2010-04-17 15:14+0530\n"
+ "Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+ "Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+ "MIME-Version: 1.0\n"
+@@ -976,7 +976,6 @@ msgstr "ডেস্কটপ ফাই�
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "%s আরম্ভ করা হচ্ছে"
+ 
+@@ -1017,7 +1016,6 @@ msgid "Specify session management ID"
+ msgstr "সেশান পরিচালনার ID উল্লেখ করুন"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1029,46 +1027,47 @@ msgstr "সেশান পরিচা�
+ msgid "Show session management options"
+ msgstr "সেশান পরিচালনা সংক্রান্ত বিকল্প প্রদর্শন করা হবে"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "নতুন উইন্ডোর মধ্যে বুকমার্ক খোলা হবে"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "বুকমার্কের নাম পরিবর্তন করুন"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "বুকমার্ক মুছে ফেলুন"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "এই পৃষ্ঠার জন্য %s শিরোনামসহ একটি বুকমার্ক বর্তমানে উপস্থিত রয়েছে।"
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "এই পৃষ্ঠার জন্য <b>%s</b> শিরোনামসহ একটি বুকমার্ক বর্তমানে উপস্থিত রয়েছে।"
+ 
+ # msgstr "/_সহায়তা/_সম্বন্ধে"
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "সহায়িকার সূচিপত্র"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "ডকুমেন্টের বিভাগ"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "পৃষ্ঠা পাওয়া যায়নি"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "%s পৃষ্ঠাটি %s ডকুমেন্টের মধ্যে পাওয়া যায়নি।"
+@@ -1122,7 +1121,7 @@ msgstr "অজানা"
+ msgid "Unknown Error"
+ msgstr "অজানা ত্রুটি"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "ফাইল পড়তে ব্যর্থ"
+ 
+@@ -1161,16 +1160,14 @@ msgstr " GNOME Help Browser"
+ # msgstr "জিনোমের মধ্যে দেয়া সহায়ক তথ্য গ্ড়গ্রহণ করুন"
+ #: ../src/yelp-main.c:384 ../yelp.desktop.in.in.h:2
+ msgid "Help"
+-msgstr "সহায়তা"
++msgstr "সাহায্য"
+ 
+ #: ../src/yelp-mallard.c:311
+-#| msgid "File not found"
+ msgid "Directory not found"
+ msgstr "ডিরেক্টরি পাওয়া যায়নি"
+ 
+ #: ../src/yelp-mallard.c:312
+ #, c-format
+-#| msgid "The file ‘%s’ does not exist."
+ msgid "The directory ‘%s’ does not exist."
+ msgstr "‘%s’ ডিরেক্টরিটি বর্তমানে অনুপস্থিত।"
+ 
+@@ -1365,7 +1362,7 @@ msgstr "বুকমার্ক (_B)"
+ # msgstr "/যাও/_সূচি"
+ #: ../src/yelp-window.c:308
+ msgid "_Help"
+-msgstr "সহায়তা (_H)"
++msgstr "সাহায্য (_H)"
+ 
+ #: ../src/yelp-window.c:311
+ msgid "_New Window"
+@@ -1415,7 +1412,7 @@ msgstr "শব্দ অথবা পং
+ # msgstr "স্বয়ংক্রিয়ভাবে _চারদিক থেকে জড়িয়ে ফেলে"
+ #: ../src/yelp-window.c:363
+ msgid "Find Ne_xt"
+-msgstr "পরবর্তী উপস্থিত অনুসন্ধান করুন (_x)"
++msgstr "পরবর্তী উপস্থিতি অনুসন্ধান করুন (_x)"
+ 
+ #: ../src/yelp-window.c:365
+ msgid "Find next occurrence of the word or phrase"
+@@ -1423,7 +1420,7 @@ msgstr "শব্দ অথবা পং
+ 
+ #: ../src/yelp-window.c:368
+ msgid "_Preferences"
+-msgstr "পছন্দ(_P)"
++msgstr "পছন্দসই বৈশিষ্ট্য (_P)"
+ 
+ #: ../src/yelp-window.c:373
+ msgid "_Reload"
+@@ -1468,7 +1465,7 @@ msgstr "পরবর্তী বিভ�
+ # msgstr "_অনুসন্ধান হচ্ছেঃ "
+ #: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+ msgid "_Contents"
+-msgstr "সূচি (_C)"
++msgstr "সূচিপত্র (_C)"
+ 
+ #: ../src/yelp-window.c:416
+ msgid "_Add Bookmark"
+@@ -1510,7 +1507,7 @@ msgstr "সহায়ক তথ্য প
+ 
+ # msgstr "সিস্টেমের ব্যবস্থাপনা"
+ # msgstr "সিস্টেমের পরিচালনা"
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "আসিতেছে..."
+ 
+@@ -1531,41 +1528,41 @@ msgid "Unable to load page"
+ msgstr "পৃষ্ঠা লোড করতে ব্যর্থ"
+ 
+ # msgstr "সেকশন"
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+ msgstr "অনুসন্ধান:(_S)"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "অন্যান্য ডকুমেন্টেশন অনুসন্ধান করুন"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "উইন্ডো নির্মাণ করতে ব্যর্থ"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "অনুসন্ধানের সামগ্রী নির্মাণ করতে ব্যর্থ"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+ msgstr "অনুসন্ধান: (_d)"
+ 
+ # msgstr "_পরেরটা"
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+ msgstr "পরবর্তী উপস্থিতি অনুসন্ধান করুন (_P)"
+ 
+ # msgstr "স্বয়ংক্রিয়ভাবে _চারদিক থেকে জড়িয়ে ফেলে"
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+ msgstr "পরবর্তী উপস্থিতি অনুসন্ধান করুন (_N)"
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "পংক্তির পাওয়া যায়নি"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1576,7 +1573,7 @@ msgstr ""
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr ""
+ "খন্দকার মুজাহিদুল ইসলাম সুজন <suzan@bengalinux.org>\n"
+@@ -1584,11 +1581,11 @@ msgstr ""
+ "অঙ্কুর গ্রুপের পক্ষ থেকে"
+ 
+ # msgstr "_আগেরটা"
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+ msgstr "Yelp"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "Gnome ডেস্কটপে ব্যবহারযোগ্য একটু ডকুমেন্টেশন ব্রাউজার ও প্রদর্শন ব্যবস্থা।"
+ 
+diff -up yelp-2.28.1/po/es.po.el6-translation-updates yelp-2.28.1/po/es.po
+--- yelp-2.28.1/po/es.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/es.po	2010-06-11 17:48:14.875530666 -0400
+@@ -1,19 +1,19 @@
+-# translation of yelp.HEAD.po to Español
++# translation of es.po to Spanish
+ # Spanish translation for yelp
+-# Copyright (C) 2001,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
++# Copyright (C) 2001,2003, 2004, 2005, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
+ #
+ # Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2001, 2002, 2003.
+ # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
+ # Jorge González <jorgegonz@svn.gnome.org>, 2007, 200, 2009.
++# Gladys Guerrero  <gguerrer@redhat.com>, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: yelp.HEAD\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+-"product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-07 00:18+0000\n"
+-"PO-Revision-Date: 2009-08-07 19:11+0200\n"
+-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+-"Language-Team: Español <gnome-es-list@gnome.org>\n"
++"Project-Id-Version: es\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
++"PO-Revision-Date: 2010-04-14 16:19+1000\n"
++"Last-Translator: Gladys Guerrero  <gguerrer@redhat.com>\n"
++"Language-Team: Spanish <es@li.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+@@ -322,7 +322,7 @@ msgstr "Aplicaciones que enseñan o ayud
+ 
+ #: ../data/toc.xml.in.h:10
+ msgid "Arcade Games"
+-msgstr "Juegos arcade"
++msgstr "Juegos Arcade"
+ 
+ #: ../data/toc.xml.in.h:11
+ msgid "Archiving Tools"
+@@ -455,7 +455,7 @@ msgstr "Herramientas de correo-e"
+ 
+ #: ../data/toc.xml.in.h:45
+ msgid "Emulator"
+-msgstr "Emulardor"
++msgstr "Emulador"
+ 
+ #: ../data/toc.xml.in.h:46
+ msgid "Engineering"
+@@ -523,8 +523,7 @@ msgstr "Gráficos"
+ 
+ #: ../data/toc.xml.in.h:63
+ msgid "Guides and manuals for applications that connect to the outside world"
+-msgstr ""
+-"Guías y manuales para aplicaciones que le conectan con el mundo exterior"
++msgstr "Guías y manuales para aplicaciones que le conectan con el mundo exterior"
+ 
+ #: ../data/toc.xml.in.h:64
+ msgid "Guides for getting involved in development"
+@@ -754,8 +753,7 @@ msgstr "Ajustes"
+ 
+ #: ../data/toc.xml.in.h:121
+ msgid "Settings users can manipulate to make their environment more pleasant"
+-msgstr ""
+-"Ajustes que los usuarios pueden manipular para hacer su entorno más agradable"
++msgstr "Ajustes que los usuarios pueden manipular para hacer su entorno más agradable"
+ 
+ #: ../data/toc.xml.in.h:122
+ msgid "Simulation Games"
+@@ -880,7 +878,7 @@ msgstr "Re_nombrar"
+ 
+ #: ../data/ui/yelp-bookmarks.ui.h:3
+ msgid "_Bookmarks:"
+-msgstr "_Marcadores:"
++msgstr "Marcadores:"
+ 
+ #: ../data/ui/yelp-bookmarks-add.ui.h:1
+ msgid "Add Bookmark"
+@@ -896,11 +894,11 @@ msgstr "Abrir dirección"
+ 
+ #: ../data/ui/yelp-open-location.ui.h:2
+ msgid "_Location:"
+-msgstr "_Dirección:"
++msgstr "_Lugar:"
+ 
+ #: ../data/ui/yelp-preferences.ui.h:2
+ msgid "Fonts"
+-msgstr "Tipografías"
++msgstr "Fuentes"
+ 
+ #: ../data/ui/yelp-preferences.ui.h:3
+ msgid "Preferences"
+@@ -908,7 +906,7 @@ msgstr "Preferencias"
+ 
+ #: ../data/ui/yelp-preferences.ui.h:4
+ msgid "_Browse with caret"
+-msgstr "_Examinar con cursor"
++msgstr "Examinar con cursor"
+ 
+ #: ../data/ui/yelp-preferences.ui.h:5
+ msgid "_Fixed width:"
+@@ -966,7 +964,6 @@ msgstr "No se reconoce la versión «%s�
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "Iniciando %s"
+ 
+@@ -983,8 +980,7 @@ msgstr "Opción de lanzamiento no recono
+ #: ../src/eggdesktopfile.c:1373
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr ""
+-"No se pueden pasar los URI de documentos a entradas de escritorio «Type=Link»"
++msgstr "No se pueden pasar los URI de documentos a entradas de escritorio «Type=Link»"
+ 
+ #: ../src/eggdesktopfile.c:1392
+ #, c-format
+@@ -1008,7 +1004,6 @@ msgid "Specify session management ID"
+ msgstr "Especificar el ID de gestión de sesión"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1020,45 +1015,46 @@ msgstr "Opciones de gestión de la sesi�
+ msgid "Show session management options"
+ msgstr "Mostrar las opciones de gestión de la sesión"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "Abrir marcador en una ventana nueva"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "Renombrar marcador"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "Eliminar marcador"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "Ya existe un marcador titulado %s para esta página."
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "Ya existe un marcador titulado <b>%s</b> para esta página."
+ 
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "Temas de la ayuda"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "Secciones del documento"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "Página no encontrada"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "La página %s no se encontró en el documento %s."
+@@ -1112,7 +1108,7 @@ msgstr "Desconocido"
+ msgid "Unknown Error"
+ msgstr "Error desconocido"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "No se pudo leer el archivo"
+ 
+@@ -1122,8 +1118,7 @@ msgstr "No hay información disponible a
+ 
+ #: ../src/yelp-info.c:396
+ #, c-format
+-msgid ""
+-"The file ‘%s’ could not be parsed because it is not a well-formed info page."
++msgid "The file ‘%s’ could not be parsed because it is not a well-formed info page."
+ msgstr ""
+ "El archivo «%s» no se pudo analizar porque no es una página de información "
+ "bien formada."
+@@ -1165,10 +1160,8 @@ msgstr "El directorio «%s» no existe."
+ 
+ #: ../src/yelp-man.c:459
+ #, c-format
+-msgid ""
+-"The file ‘%s’ could not be parsed because it is not a well-formed man page."
+-msgstr ""
+-"El archivo «%s» no se pudo analizar porque no es una página man bien formada."
++msgid "The file ‘%s’ could not be parsed because it is not a well-formed man page."
++msgstr "El archivo «%s» no se pudo analizar porque no es una página man bien formada."
+ 
+ #: ../src/yelp-print.c:97
+ msgid "Print"
+@@ -1202,7 +1195,7 @@ msgstr "No es posible imprimir su docume
+ 
+ #: ../src/yelp-search-parser.c:67
+ msgid "the GNOME Support Forums"
+-msgstr "Los fórums de asistencia de GNOME"
++msgstr "Los fórum de asistencia de GNOME"
+ 
+ #: ../src/yelp-search-parser.c:285
+ #, c-format
+@@ -1246,8 +1239,7 @@ msgid ""
+ "doesnt:don't:dont:explain:for:from:get:gets:got:make:makes:not:when:has:have:"
+ "help:how:i:in:is:it:item:me:my:of:on:or:tell:that:the:thing:this:to:what:"
+ "where:who:will:with:won't:wont:why:work:working:works"
+-msgstr ""
+-"acerca de:con:contra:de:desde:elemento:es:hace:mi:por:que:según:sin:sobre:son"
++msgstr "acerca de:con:contra:de:desde:elemento:es:hace:mi:por:que:según:sin:sobre:son"
+ 
+ #. Translators: This is a list of common prefixes for words.
+ #. * Do not translate this directly.  Instead, use a colon
+@@ -1337,7 +1329,7 @@ msgstr "Se agotó la memoria"
+ 
+ #: ../src/yelp-window.c:304
+ msgid "_File"
+-msgstr "_Archivo"
++msgstr "_Fichero"
+ 
+ #: ../src/yelp-window.c:305
+ msgid "_Edit"
+@@ -1345,7 +1337,7 @@ msgstr "_Editar"
+ 
+ #: ../src/yelp-window.c:306
+ msgid "_Go"
+-msgstr "_Ir a"
++msgstr "Ir a"
+ 
+ #: ../src/yelp-window.c:307
+ msgid "_Bookmarks"
+@@ -1373,7 +1365,7 @@ msgstr "Acerca de este documento"
+ 
+ #: ../src/yelp-window.c:331
+ msgid "Open _Location"
+-msgstr "Abrir _dirección"
++msgstr "Abrir _Lugar"
+ 
+ #: ../src/yelp-window.c:336
+ msgid "_Close Window"
+@@ -1385,15 +1377,15 @@ msgstr "_Copiar"
+ 
+ #: ../src/yelp-window.c:348
+ msgid "_Select All"
+-msgstr "Seleccionar _todo"
++msgstr "_Seleccionar todo"
+ 
+ #: ../src/yelp-window.c:353
+ msgid "_Find..."
+-msgstr "_Buscar..."
++msgstr "Buscar..."
+ 
+ #: ../src/yelp-window.c:358
+ msgid "Find Pre_vious"
+-msgstr "Buscar _anterior"
++msgstr "Buscar pre_via"
+ 
+ #: ../src/yelp-window.c:360
+ msgid "Find previous occurrence of the word or phrase"
+@@ -1401,7 +1393,7 @@ msgstr "Buscar la anterior aparición de
+ 
+ #: ../src/yelp-window.c:363
+ msgid "Find Ne_xt"
+-msgstr "Buscar _siguiente"
++msgstr "Buscar siguiente"
+ 
+ #: ../src/yelp-window.c:365
+ msgid "Find next occurrence of the word or phrase"
+@@ -1409,15 +1401,15 @@ msgstr "Buscar la siguiente aparición d
+ 
+ #: ../src/yelp-window.c:368
+ msgid "_Preferences"
+-msgstr "Prefere_ncias"
++msgstr "_Preferencias"
+ 
+ #: ../src/yelp-window.c:373
+ msgid "_Reload"
+-msgstr "Re_cargar"
++msgstr "_Recargar"
+ 
+ #: ../src/yelp-window.c:385
+ msgid "_Back"
+-msgstr "A_trás"
++msgstr "Atrás"
+ 
+ #: ../src/yelp-window.c:387
+ msgid "Show previous page in history"
+@@ -1425,7 +1417,7 @@ msgstr "Muestra la página anterior del 
+ 
+ #: ../src/yelp-window.c:390
+ msgid "_Forward"
+-msgstr "A_delante"
++msgstr "Adelante"
+ 
+ #: ../src/yelp-window.c:392
+ msgid "Show next page in history"
+@@ -1433,7 +1425,7 @@ msgstr "Muestra la siguiente página del
+ 
+ #: ../src/yelp-window.c:395
+ msgid "_Help Topics"
+-msgstr "Temas de ay_uda"
++msgstr "Temas de ayuda"
+ 
+ #: ../src/yelp-window.c:397
+ msgid "Go to the listing of help topics"
+@@ -1441,15 +1433,15 @@ msgstr "Ir a la lista de temas de ayuda"
+ 
+ #: ../src/yelp-window.c:400
+ msgid "_Previous Section"
+-msgstr "Sección _anterior"
++msgstr "Sección _previa"
+ 
+ #: ../src/yelp-window.c:405
+ msgid "_Next Section"
+-msgstr "Sección _siguiente"
++msgstr "Sección siguie_nte"
+ 
+ #: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+ msgid "_Contents"
+-msgstr "Índ_ice"
++msgstr "_Contenido"
+ 
+ #: ../src/yelp-window.c:416
+ msgid "_Add Bookmark"
+@@ -1461,11 +1453,11 @@ msgstr "_Editar marcadores..."
+ 
+ #: ../src/yelp-window.c:427
+ msgid "_Open Link"
+-msgstr "_Abrir enlace"
++msgstr "Abrir enlace"
+ 
+ #: ../src/yelp-window.c:432
+ msgid "Open Link in _New Window"
+-msgstr "Abrir enlace en una _ventana nueva"
++msgstr "Abrir enlace en una ventana _nueva"
+ 
+ #: ../src/yelp-window.c:437
+ msgid "_Copy Link Address"
+@@ -1477,17 +1469,17 @@ msgstr "Ayuda acerca de esta aplicación
+ 
+ #: ../src/yelp-window.c:447
+ msgid "_About"
+-msgstr "Acerca _de"
++msgstr "_Acerca de"
+ 
+ #: ../src/yelp-window.c:452
+ msgid "Copy _Email Address"
+-msgstr "Copiar dirección de _correo-e"
++msgstr "Copiar dirección d_e correo-e"
+ 
+ #: ../src/yelp-window.c:524
+ msgid "Help Browser"
+ msgstr "Visor de ayuda"
+ 
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "Cargando..."
+ 
+@@ -1506,39 +1498,39 @@ msgstr "El URI requerido «%s» no es v�
+ msgid "Unable to load page"
+ msgstr "No se pudo cargar la página"
+ 
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+-msgstr "_Buscar:"
++msgstr "Bu_scar:"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "Buscar otra documentación"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "No se puede crear la ventana"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "No se puede crear el componente de búsqueda"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+-msgstr "_Buscar:"
++msgstr "Búsque_da:"
+ 
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+-msgstr "Buscar _anterior"
++msgstr "Búsqueda _previa"
+ 
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+-msgstr "Buscar _siguiente"
++msgstr "Siguie_nte búsqueda"
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "No se encontró la frase"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1549,17 +1541,17 @@ msgstr ""
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr ""
+ "Jorge González <jorgegonz@svn.gnome.org>, 2007-2009\n"
+ "Francisco J.F. Serrador <serrador@cvs.gnome.com>, 2003-2006"
+ 
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+ msgstr "Yelp"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "Un visor y explorador de documentación para el escritorio GNOME."
+ 
+@@ -1567,29 +1559,3 @@ msgstr "Un visor y explorador de documen
+ msgid "Get help with GNOME"
+ msgstr "Obtenga ayuda acerca de GNOME"
+ 
+-#~ msgid "<b>Accessibility</b>"
+-#~ msgstr "<b>Accesibilidad</b>"
+-
+-#~ msgid "<b>Fonts</b>"
+-#~ msgstr "<b>Tipografías</b>"
+-
+-#~ msgid "C_ase sensitive"
+-#~ msgstr "Distinguir _capitalización"
+-
+-#~ msgid "Find"
+-#~ msgstr "Buscar"
+-
+-#~ msgid "_Find:"
+-#~ msgstr "_Buscar:"
+-
+-#~ msgid "_Next"
+-#~ msgstr "_Siguiente"
+-
+-#~ msgid "_Previous"
+-#~ msgstr "_Anterior"
+-
+-#~ msgid "_Wrap around"
+-#~ msgstr "_Volver al principio"
+-
+-#~ msgid "Error executing \"gnome-open\""
+-#~ msgstr "Error al ejecutar «gnome-open»"
+diff -up yelp-2.28.1/po/kn.po.el6-translation-updates yelp-2.28.1/po/kn.po
+--- yelp-2.28.1/po/kn.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/kn.po	2010-06-11 17:48:14.876530972 -0400
+@@ -6,8 +6,8 @@
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: yelp.master.kn\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-07 00:18+0000\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
+ "PO-Revision-Date: 2009-09-16 23:28+0530\n"
+ "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+ "Language-Team: Kannada <en@li.org>\n"
+@@ -415,7 +415,7 @@ msgstr "ಗಣಕತೆರೆ"
+ 
+ #: ../data/toc.xml.in.h:34
+ msgid "Desktop Settings"
+-msgstr "ಗಣಕತೆರೆ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಗಣಕತೆರೆ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../data/toc.xml.in.h:36
+ msgid "Dialup"
+@@ -520,7 +520,8 @@ msgstr "ಗ್ರಾಫಿಕ್ಸ್�
+ 
+ #: ../data/toc.xml.in.h:63
+ msgid "Guides and manuals for applications that connect to the outside world"
+-msgstr "ಬಾಹ್ಯ ಜಗತ್ತಿನೊಂದಿಗೆ ಸಂಪರ್ಕಹೊಂದಲು ಬಳಸಲಾಗುವ ಅನ್ವಯಗಳ ಮಾರ್ಗದರ್ಶಿಗಳು ಹಾಗು ಕೈಪಿಡಿಗಳು"
++msgstr ""
++"ಬಾಹ್ಯ ಜಗತ್ತಿನೊಂದಿಗೆ ಸಂಪರ್ಕಹೊಂದಲು ಬಳಸಲಾಗುವ ಅನ್ವಯಗಳ ಮಾರ್ಗದರ್ಶಿಗಳು ಹಾಗು ಕೈಪಿಡಿಗಳು"
+ 
+ #: ../data/toc.xml.in.h:64
+ msgid "Guides for getting involved in development"
+@@ -532,7 +533,7 @@ msgstr "ಹ್ಯಾಮ್ ರೇಡಿ�
+ 
+ #: ../data/toc.xml.in.h:66
+ msgid "Hardware Settings"
+-msgstr "ಯಂತ್ರಾಂಶ ಸಂಯೋಜನೆಗಳು"
++msgstr "ಯಂತ್ರಾಂಶ ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../data/toc.xml.in.h:67
+ msgid "Have some fun"
+@@ -744,11 +745,12 @@ msgstr "ಸೀಕ್ವೆನ್ಸರ�
+ 
+ #: ../data/toc.xml.in.h:120
+ msgid "Settings"
+-msgstr "ಸಂಯೋಜನೆಗಳು"
++msgstr "ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../data/toc.xml.in.h:121
+ msgid "Settings users can manipulate to make their environment more pleasant"
+-msgstr "ಬಳಕೆದಾರರು ತಮ್ಮ ಗಣಕ ಪರಿಸರವನ್ನು ಇನ್ನಷ್ಟು ಹಿತಕರವಾಗಿರುವಂತೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಲು ಸಿದ್ಧತೆಗಳು"
++msgstr ""
++"ಬಳಕೆದಾರರು ತಮ್ಮ ಗಣಕ ಪರಿಸರವನ್ನು ಇನ್ನಷ್ಟು ಹಿತಕರವಾಗಿರುವಂತೆ ಬದಲಾಯಿಸಿಕೊಳ್ಳಲು ಸಿದ್ಧತೆಗಳು"
+ 
+ #: ../data/toc.xml.in.h:122
+ msgid "Simulation Games"
+@@ -945,7 +947,7 @@ msgstr "ಗಣಕದ ಅಕ್ಷರಶ�
+ 
+ #: ../data/yelp.schemas.in.h:8
+ msgid "Use the default fonts set for the system."
+-msgstr "ಗಣಕಕ್ಕೆ ಹೊಂದಿಸಲಾದ ಡೀಫಾಲ್ಟ್‍ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು."
++msgstr "ಗಣಕಕ್ಕೆ ಹೊಂದಿಸಲಾದ ಪೂರ್ವನಿಯೋಜಿತಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು."
+ 
+ #: ../src/eggdesktopfile.c:165
+ #, c-format
+@@ -959,7 +961,6 @@ msgstr "ಗುರುತಿಸಲಾಗ�
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "%s ಅನ್ನು ಆರಂಭಿಸಲಾಗುತ್ತಿದೆ"
+ 
+@@ -976,7 +977,8 @@ msgstr "ಗುರುತಿಸಲಾಗ�
+ #: ../src/eggdesktopfile.c:1373
+ #, c-format
+ msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+-msgstr "ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
++msgstr ""
++"ದಸ್ತಾವೇಜಿನ URI ಗಳನ್ನು ಒಂದು 'Type=Link' ಗಣಕತೆರೆ ನಮೂದಿಗೆ ರವಾನಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+ #: ../src/eggdesktopfile.c:1392
+ #, c-format
+@@ -1000,7 +1002,6 @@ msgid "Specify session management ID"
+ msgstr "ಅಧೀವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ID ಯನ್ನು ಸೂಚಿಸಿ"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1012,45 +1013,46 @@ msgstr "ಅಧಿವೇಶನ ನಿರ�
+ msgid "Show session management options"
+ msgstr "ಅಧಿವೇಶನ ವ್ಯವಸ್ಥಾಪನಾ ಆಯ್ಕೆಗಳನ್ನು ತೋರಿಸು"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ಹೊಸ ವಿಂಡೋದಲ್ಲಿ ತೆರೆ"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕಿನ ಹೆಸರನ್ನು ಬದಲಾಯಿಸು"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "ಬುಕ್‌ಮಾರ್ಕನ್ನು ತೆಗೆದುಹಾಕು"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "ಈ ಪುಟಕ್ಕಾಗಿನ %s ಎಂಬ ಶೀರ್ಷಿಕೆಯ ಒಂದು ಬುಕ್‌ಮಾರ್ಕು ಈಗಾಗೆಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "ಈ ಪುಟಕ್ಕಾಗಿನ <b>%s</b> ಎಂಬ ಶೀರ್ಷಿಕೆಯ ಒಂದು ಬುಕ್‌ಮಾರ್ಕು ಈಗಾಗೆಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
+ 
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "ನೆರವಿನ ವಿಷಯಗಳು"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "ದಸ್ತಾವೇಜು ವಿಭಾಗಗಳು"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "ಪುಟವು ಕಂಡುಬಂದಿಲ್ಲ"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "%s ಪುಟವು %s ದಸ್ತಾವೇಜಿನಲ್ಲಿ ಕಂಡುಬಂದಿಲ್ಲ."
+@@ -1104,7 +1106,7 @@ msgstr "ಗೊತ್ತಿಲ್ಲದ"
+ msgid "Unknown Error"
+ msgstr "ಗೊತ್ತಿರದ ದೋಷ"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "ಕಡತವನ್ನು ಓದಲು ಆಗಲಿಲ್ಲ"
+ 
+@@ -1114,7 +1116,8 @@ msgstr "ಈ ದೋಷದ ಬಗ್ಗೆ
+ 
+ #: ../src/yelp-info.c:396
+ #, c-format
+-msgid "The file ‘%s’ could not be parsed because it is not a well-formed info page."
++msgid ""
++"The file ‘%s’ could not be parsed because it is not a well-formed info page."
+ msgstr ""
+ "ಕಡತ ‘%s’ ಅನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಅದು ಸೂಕ್ತವಾಗಿ ರಚಿಸಲಾದ ಒಂದು ಮಾಹಿತಿ "
+ "(info) ಪುಟವಾಗಿಲ್ಲ."
+@@ -1146,19 +1149,18 @@ msgid "Help"
+ msgstr "ಸಹಾಯ"
+ 
+ #: ../src/yelp-mallard.c:311
+-#| msgid "File not found"
+ msgid "Directory not found"
+ msgstr "ಕೋಶವು ಕಂಡುಬಂದಿಲ್ಲ"
+ 
+ #: ../src/yelp-mallard.c:312
+ #, c-format
+-#| msgid "The file ‘%s’ does not exist."
+ msgid "The directory ‘%s’ does not exist."
+ msgstr "ಕೋಶ ‘%s’ ಅಸ್ತಿತ್ವದಲ್ಲಿ ಇಲ್ಲ."
+ 
+ #: ../src/yelp-man.c:459
+ #, c-format
+-msgid "The file ‘%s’ could not be parsed because it is not a well-formed man page."
++msgid ""
++"The file ‘%s’ could not be parsed because it is not a well-formed man page."
+ msgstr ""
+ "ಕಡತ ‘%s’ ಅನ್ನು ಪಾರ್ಸ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ ಏಕೆಂದರೆ ಅದು ಸೂಕ್ತವಾಗಿ ರಚಿಸಲಾದ ಒಂದು ಮ್ಯಾನ್ "
+ "(man) ಪುಟವಾಗಿಲ್ಲ."
+@@ -1483,7 +1485,7 @@ msgstr "ಇಮೈಲ್ ವಿಳಾಸ�
+ msgid "Help Browser"
+ msgstr "ಸಹಾಯ ವೀಕ್ಷಕ"
+ 
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "ಓದುತ್ತಿದೆ..."
+ 
+@@ -1502,39 +1504,39 @@ msgstr "ಮನವಿ ಸಲ್ಲಿಸ�
+ msgid "Unable to load page"
+ msgstr "ಪುಟವನ್ನು ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+ msgstr "ಹುಡುಕು(_S):"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "ಇತರೆ ದಸ್ತಾವೇಜುಗಳನ್ನು ಹುಡುಕು"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "ಹೊಸ ವಿಂಡೋವನ್ನು ನಿರ್ಮಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "ಹುಡುಕು ಅಂಗವನ್ನು ನಿರ್ಮಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+ msgstr "ಹುಡುಕು(_d):"
+ 
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+ msgstr "ಹಿಂದಿನದನ್ನು ಹುಡುಕು(_P)"
+ 
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+ msgstr "ಮುಂದಿನದನ್ನು ಹುಡುಕು(_N)"
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "ಪದವು ಕಂಡುಬಂದಿಲ್ಲ"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1545,19 +1547,18 @@ msgstr ""
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr "ಪ್ರಮೋದ್.ಆರ್, ಶಂಕರ್ ಪ್ರಸಾದ್ <svenkate@redhat.com>"
+ 
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+ msgstr "ಯೆಲ್ಪ್"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "Gnome Desktop ಗಾಗಿನ ಒಂದು ದಸ್ತಾವೇಜು ವೀಕ್ಷಕ ಹಾಗು ನೋಡುಗ."
+ 
+ #: ../yelp.desktop.in.in.h:1
+ msgid "Get help with GNOME"
+ msgstr "GNOME ಬಗ್ಗೆ ನೆರವನ್ನು ಪಡೆದುಕೊಳ್ಳಿ"
+-
+diff -up yelp-2.28.1/po/ml.po.el6-translation-updates yelp-2.28.1/po/ml.po
+--- yelp-2.28.1/po/ml.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/ml.po	2010-06-11 17:48:14.879528969 -0400
+@@ -1,3 +1,4 @@
++# translation of ml.po to
+ # translation of yelp.master.ml.po to
+ # translation of yelp.HEAD.ml.po to
+ # This file is distributed under the same license as the PACKAGE package.
+@@ -8,18 +9,18 @@
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: yelp.master.ml\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-07 00:18+0000\n"
+-"PO-Revision-Date: 2009-08-28 13:01+0530\n"
++"Project-Id-Version: ml\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
++"PO-Revision-Date: 2010-04-28 11:02+0530\n"
+ "Last-Translator: \n"
+ "Language-Team:  <en@li.org>\n"
++"MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.11.4\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "\n"
+-"MIME-Version: 1.0\n"
+ 
+ #: ../data/info.xml.in.h:1
+ msgid "GNU Info Pages"
+@@ -875,7 +876,7 @@ msgstr "അടയാളക്കുറ�
+ 
+ #: ../data/ui/yelp-bookmarks.ui.h:2
+ msgid "Re_name"
+-msgstr "പേര് മാറ്റുക (_n)"
++msgstr "പേര് _മാറ്റുക"
+ 
+ #: ../data/ui/yelp-bookmarks.ui.h:3
+ msgid "_Bookmarks:"
+@@ -887,7 +888,7 @@ msgstr "അടയാളക്കുറ�
+ 
+ #: ../data/ui/yelp-bookmarks-add.ui.h:2
+ msgid "_Title:"
+-msgstr "തലക്കെട്ട്: (_T)"
++msgstr "_തലക്കെട്ട്:"
+ 
+ #: ../data/ui/yelp-open-location.ui.h:1
+ msgid "Open Location"
+@@ -965,7 +966,6 @@ msgstr "അപരിചിതമായ �
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "%s ആരംഭിക്കുന്നു"
+ 
+@@ -1006,7 +1006,6 @@ msgid "Specify session management ID"
+ msgstr "സെഷന്‍ മാനേജ്മെന്റ് ID വ്യക്തമാക്കുക"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1018,45 +1017,46 @@ msgstr "സെഷന്‍ മാനേ�
+ msgid "Show session management options"
+ msgstr "സെഷന്‍ മാനേജ്മെന്റ് ഉപാധികള്‍ കാണിക്കുക"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "പുതിയ ജാലകത്തില്‍ അടയാളക്കുറിപ്പുകള്‍ തുറക്കുക"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "അടയാളക്കുറിപ്പിന്റെ പേരു് മാറ്റുക"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "അടയാളക്കുറിപ്പ് നീക്കം ചെയ്യുക"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "%s എന്ന പേരുള്ള അടയാളക്കുറിപ്പ് ഈ താളിനു് നിലവിലുണ്ടു്."
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "<b>%s</b> എന്ന പേരുള്ള അടയാളക്കുറിപ്പ് ഈ താളിനു് നിലവിലുണ്ടു്."
+ 
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "സഹായത്തിനുള്ള വിഷയങ്ങള്‍"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "വിവരണക്കുറിപ്പിന്റെ ഭാഗങ്ങള്‍"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "താള്‍ ലഭ്യമല്ല"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "%s എന്ന താള്‍ %s രേഖയില്‍ ലഭ്യമല്ല."
+@@ -1097,8 +1097,8 @@ msgid ""
+ "The file ‘%s’ could not be parsed because one or more of its included files "
+ "is not a well-formed XML document."
+ msgstr ""
+-"ചില ഫയലുകള്‍ ശരിയായ XML വിവരണക്കുറിപ്പല്ലാത്തതിനാല്‍, ഫയല്‍ ‘%s’  "
+-"പാഴ്സ് ചെയ്യുവാന്‍ സാധ്യമായില്ല."
++"ചില ഫയലുകള്‍ ശരിയായ XML വിവരണക്കുറിപ്പല്ലാത്തതിനാല്‍, ഫയല്‍ ‘%s’  പാഴ്സ് ചെയ്യുവാന്‍ "
++"സാധ്യമായില്ല."
+ 
+ #: ../src/yelp-db-print.c:766 ../src/yelp-docbook.c:787
+ msgid "Unknown"
+@@ -1108,7 +1108,7 @@ msgstr "അപരിചിതം"
+ msgid "Unknown Error"
+ msgstr "അപരിചിതമായ പിശക്"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "ഫയല്‍ വായിക്കുവാന്‍ സാധ്യമല്ല"
+ 
+@@ -1120,8 +1120,8 @@ msgstr "ഈ പിശക് സംബന
+ #, c-format
+ msgid "The file ‘%s’ could not be parsed because it is not a well-formed info page."
+ msgstr ""
+-"വിവരങ്ങള്‍ ശരിയായ രീതിയില്‍ ലഭ്യമാക്കുന്ന താളല്ലാത്തതിനാല്‍ ഫയല്‍ ‘%s’ പാഴ്സ് "
+-"ചെയ്യുവാന്‍ സാധ്യമായില്ല. "
++"വിവരങ്ങള്‍ ശരിയായ രീതിയില്‍ ലഭ്യമാക്കുന്ന താളല്ലാത്തതിനാല്‍ ഫയല്‍ ‘%s’ പാഴ്സ് ചെയ്യുവാന്‍ "
++"സാധ്യമായില്ല. "
+ 
+ #: ../src/yelp-io-channel.c:132
+ #, c-format
+@@ -1129,8 +1129,8 @@ msgid ""
+ "The file ‘%s’ could not be read and decoded. The file may be compressed in "
+ "an unsupported format."
+ msgstr ""
+-"ഫയല്‍ ‘%s’ വായിക്കുവാനോ ഡീകോഡ് ചെയ്യുവാനോ സാധ്യമായില്ല. ഫയല്‍ "
+-"പിന്തുണയില്ലാത്ത മാതൃകയില്‍ കംപ്രെസ് ചെയ്തിരിക്കാം."
++"ഫയല്‍ ‘%s’ വായിക്കുവാനോ ഡീകോഡ് ചെയ്യുവാനോ സാധ്യമായില്ല. ഫയല്‍ പിന്തുണയില്ലാത്ത മാതൃകയില്‍ "
++"കംപ്രെസ് ചെയ്തിരിക്കാം."
+ 
+ #: ../src/yelp-main.c:88
+ msgid "Use a private session"
+@@ -1150,13 +1150,11 @@ msgid "Help"
+ msgstr "സഹായം"
+ 
+ #: ../src/yelp-mallard.c:311
+-#| msgid "File not found"
+ msgid "Directory not found"
+ msgstr "ഡയറക്ടറി ലഭ്യമായില്ല"
+ 
+ #: ../src/yelp-mallard.c:312
+ #, c-format
+-#| msgid "The file ‘%s’ does not exist."
+ msgid "The directory ‘%s’ does not exist."
+ msgstr "ഡയറക്ടറി ‘%s’ നിലവിലില്ല."
+ 
+@@ -1209,8 +1207,8 @@ msgid ""
+ "Try using different words to describe the problem you're having or the topic "
+ "you want help with."
+ msgstr ""
+-"നിങ്ങളുടെ പ്രശ്നം വിവരിക്കുന്നതിനായി പല വാക്കുകള്‍ ഉപയോഗിച്ചു് ശ്രമിക്കുക "
+-"അല്ലെങ്കില്‍ നിങ്ങള്‍ക്കു് സഹായം ആവശ്യമുള്ള വിഷയം നല്‍കുക."
++"നിങ്ങളുടെ പ്രശ്നം വിവരിക്കുന്നതിനായി പല വാക്കുകള്‍ ഉപയോഗിച്ചു് ശ്രമിക്കുക അല്ലെങ്കില്‍ നിങ്ങള്‍ക്കു് "
++"സഹായം ആവശ്യമുള്ള വിഷയം നല്‍കുക."
+ 
+ #: ../src/yelp-search-parser.c:289
+ #, c-format
+@@ -1304,9 +1302,7 @@ msgstr "ആവശ്യപ്പെട�
+ msgid ""
+ "The TOC file could not be parsed because it is not a well-formed XML "
+ "document."
+-msgstr ""
+-"ശരിയായ XML വിവരണക്കുറിപ്പല്ലാത്തതിനാല്‍ TOC ഫയല്‍ പാഴ്സ് ചെയ്യുവാന്‍ "
+-"സാധ്യമായില്ല."
++msgstr "ശരിയായ XML വിവരണക്കുറിപ്പല്ലാത്തതിനാല്‍ TOC ഫയല്‍ പാഴ്സ് ചെയ്യുവാന്‍ സാധ്യമായില്ല."
+ 
+ #: ../src/yelp-transform.c:86
+ msgid "Invalid Stylesheet"
+@@ -1335,15 +1331,15 @@ msgstr "മെമ്മറി ലഭ്�
+ 
+ #: ../src/yelp-window.c:304
+ msgid "_File"
+-msgstr "ഫയല്‍ (_F)"
++msgstr "_ഫയല്‍"
+ 
+ #: ../src/yelp-window.c:305
+ msgid "_Edit"
+-msgstr "മാറ്റം വരുത്തുക (_E)"
++msgstr "മാറ്റം _വരുത്തുക"
+ 
+ #: ../src/yelp-window.c:306
+ msgid "_Go"
+-msgstr "പോകുക (_G)"
++msgstr "_പോകുക "
+ 
+ #: ../src/yelp-window.c:307
+ msgid "_Bookmarks"
+@@ -1351,11 +1347,11 @@ msgstr "_അടയാളക്കുറ�
+ 
+ #: ../src/yelp-window.c:308
+ msgid "_Help"
+-msgstr "സഹായം (_H)"
++msgstr "_സഹായം"
+ 
+ #: ../src/yelp-window.c:311
+ msgid "_New Window"
+-msgstr "പുതിയ ജാലകം (_N)"
++msgstr "_പുതിയ ജാലകം"
+ 
+ #: ../src/yelp-window.c:316
+ msgid "Print This Document ..."
+@@ -1375,23 +1371,23 @@ msgstr "_സ്ഥാനം തുറക
+ 
+ #: ../src/yelp-window.c:336
+ msgid "_Close Window"
+-msgstr "ജാലകം അടയ്‍ക്കുക (_C)"
++msgstr "ജാലകം _അടയ്ക്കുക"
+ 
+ #: ../src/yelp-window.c:342
+ msgid "_Copy"
+-msgstr "പകര്‍ത്തുക (_C)"
++msgstr "_പകര്‍ത്തുക"
+ 
+ #: ../src/yelp-window.c:348
+ msgid "_Select All"
+-msgstr "എല്ലാം തിരഞ്ഞെടുക്കുക (_S)"
++msgstr "_എല്ലാം തിരഞ്ഞെടുക്കുക"
+ 
+ #: ../src/yelp-window.c:353
+ msgid "_Find..."
+-msgstr "തിരയുക ... (_F)"
++msgstr "_തിരയുക..."
+ 
+ #: ../src/yelp-window.c:358
+ msgid "Find Pre_vious"
+-msgstr "മുന്പത്തേത് കണ്ടെത്തുക (_v)"
++msgstr "_മുമ്പുള്ളതു് കണ്ടെത്തുക"
+ 
+ #: ../src/yelp-window.c:360
+ msgid "Find previous occurrence of the word or phrase"
+@@ -1407,7 +1403,7 @@ msgstr "വാക്ക് അല്ല�
+ 
+ #: ../src/yelp-window.c:368
+ msgid "_Preferences"
+-msgstr "ഇഷ്ടാനിഷ്ടങ്ങള്‍ (_P)"
++msgstr "_ഇഷ്ടാനിഷ്ടങ്ങള്‍"
+ 
+ #: ../src/yelp-window.c:373
+ msgid "_Reload"
+@@ -1415,7 +1411,7 @@ msgstr "_വീണ്ടും ലഭ്
+ 
+ #: ../src/yelp-window.c:385
+ msgid "_Back"
+-msgstr "പുറകോട്ട് (_B)"
++msgstr "_പുറകോട്ട്"
+ 
+ #: ../src/yelp-window.c:387
+ msgid "Show previous page in history"
+@@ -1423,7 +1419,7 @@ msgstr "നാള്‍വഴിയി�
+ 
+ #: ../src/yelp-window.c:390
+ msgid "_Forward"
+-msgstr "മുമ്പോട്ട് (_F)"
++msgstr "_മുമ്പോട്ട്"
+ 
+ #: ../src/yelp-window.c:392
+ msgid "Show next page in history"
+@@ -1439,15 +1435,15 @@ msgstr "സഹായത്തിനു�
+ 
+ #: ../src/yelp-window.c:400
+ msgid "_Previous Section"
+-msgstr "മുന്പുളള വിഭാഗം (_P)"
++msgstr "_മുമ്പുള്ള ഭാഗം"
+ 
+ #: ../src/yelp-window.c:405
+ msgid "_Next Section"
+-msgstr "അടുത്ത വിഭാഗം (_N)"
++msgstr "_അടുത്ത ഭാഗം"
+ 
+ #: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+ msgid "_Contents"
+-msgstr "ഉളളടക്കം (_C)"
++msgstr "_ഉളളടക്കം"
+ 
+ #: ../src/yelp-window.c:416
+ msgid "_Add Bookmark"
+@@ -1459,15 +1455,15 @@ msgstr "അടയാളക്കുറ�
+ 
+ #: ../src/yelp-window.c:427
+ msgid "_Open Link"
+-msgstr "ലിങ്ക് തുറക്കുക (_O)"
++msgstr "കണ്ണി _തുറക്കുക"
+ 
+ #: ../src/yelp-window.c:432
+ msgid "Open Link in _New Window"
+-msgstr "ലിങ്ക് പുതിയ ജാലകത്തില്‍ തുറക്കുക (_N)"
++msgstr "കണ്ണി _പുതിയ ജാലകത്തില്‍ തുറക്കുക"
+ 
+ #: ../src/yelp-window.c:437
+ msgid "_Copy Link Address"
+-msgstr "ലിങ്ക് വിലാസം പകര്‍ത്തുക (_C)"
++msgstr "കണ്ണിയുടെ വിലാസം _പകര്‍ത്തുക"
+ 
+ #: ../src/yelp-window.c:444
+ msgid "Help On this application"
+@@ -1475,17 +1471,17 @@ msgstr "ഈ പ്രയോഗത്ത�
+ 
+ #: ../src/yelp-window.c:447
+ msgid "_About"
+-msgstr "സംബന്ധിച്ച് (_A)"
++msgstr "_സംബന്ധിച്ച്"
+ 
+ #: ../src/yelp-window.c:452
+ msgid "Copy _Email Address"
+-msgstr "ഈമെയില്‍ വിലാസം പകര്‍ത്തുക (_E)"
++msgstr "_ഈമെയില്‍ വിലാസം പകര്‍ത്തുക"
+ 
+ #: ../src/yelp-window.c:524
+ msgid "Help Browser"
+ msgstr "സഹായ ബ്രൌസ‍ര്‍"
+ 
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "കാത്തിരിക്കൂ..."
+ 
+@@ -1504,39 +1500,39 @@ msgstr "ആവശ്യപ്പെട�
+ msgid "Unable to load page"
+ msgstr "താള്‍ ലഭ്യമാക്കുവാന്‍ സാധിച്ചില്ല"
+ 
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+-msgstr "തിരയുക: (_S)"
++msgstr "_തെരയുക:"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "മറ്റു് വിവരണക്കുറിപ്പുകള്‍ക്കായി തെരയുക"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "ജാലകം ഉണ്ടാക്കുവാന്‍ സാധ്യമായില്ല"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "തെരച്ചിലിനുള്ള ഘടകം ഉണ്ടാക്കുവാന്‍ സാധ്യമായില്ല"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+-msgstr "കണ്ടുപിടിക്കുക: (_d)"
++msgstr "ക_ണ്ടുപിടിക്കുക:"
+ 
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+-msgstr "മുന്പുളളത് കണ്ടെത്തുക (_P)"
++msgstr "_മുമ്പുള്ളതു് കണ്ടെത്തുക"
+ 
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+ msgstr "_അടുത്തത് കണ്ടെത്തുക "
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "വാചകം ലഭ്യമല്ല"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1547,15 +1543,15 @@ msgstr ""
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr "അനി പീറ്റര്‍ <apeter@redhat.com>"
+ 
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+ msgstr "Yelp"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "ഗ്നോം പണിയിടത്തിലുള്ള വിവരണക്കുറിപ്പിനുള്ള ബ്രൌസറും കാഴ്ചയ്ക്കുള്ള സംവിധാനവും."
+ 
+diff -up yelp-2.28.1/po/or.po.el6-translation-updates yelp-2.28.1/po/or.po
+--- yelp-2.28.1/po/or.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/or.po	2010-06-11 17:48:14.880529005 -0400
+@@ -1,4 +1,4 @@
+-# translation of yelp.master.or.po to Oriya
++# translation of or.po to Oriya
+ # Oriya  translation of yelp.HEAD.pot.
+ # This file is distributed under the same license as the yelp package.
+ # Copyright (C) 2005 Free Software Foundation,Inc.
+@@ -8,20 +8,21 @@
+ # Kasturi Dhal <kasturi_mama@yahoo.com>, 2005.
+ # Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
+ # Subhransu Behera <arya_subhransu@yahoo.co.in>, 2006.
+-# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009.
++# Manoj Kumar Giri <mgiri@redhat.com>, 2008, 2009, 2010.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: yelp.master.or\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-07 00:18+0000\n"
+-"PO-Revision-Date: 2009-09-17 15:44+0530\n"
++"Project-Id-Version: or\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
++"PO-Revision-Date: 2010-04-23 18:19+0530\n"
+ "Last-Translator: Manoj Kumar Giri <mgiri@redhat.com>\n"
+-"Language-Team: Oriya <oriya-it@googlegroups.com>\n"
++"Language-Team: Oriya <Translation-team-or@lists.sourceforge.net>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+ "X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms:  nplurals=2; plural=(n!=1);\n\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\n"
++"\n"
+ "\n"
+ "\n"
+ "\n"
+@@ -970,7 +971,6 @@ msgstr "ଅଚିହ୍ନା ଡେସ�
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "%s କୁ ଆରମ୍ଭ କରୁଅଛି"
+ 
+@@ -1011,7 +1011,6 @@ msgid "Specify session management ID"
+ msgstr "ଅଧିବେଶନ ପରିଚାଳନା ID କୁ ଉଲ୍ଲେଖ କରନ୍ତୁ"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1023,45 +1022,46 @@ msgstr "ଅଧିବେଶନ ପରି�
+ msgid "Show session management options"
+ msgstr "ଅଧିବେଶନ ପରିଚାଳନା ବିକଳ୍ପଗୁଡ଼ିକୁ ଦର୍ଶାନ୍ତୁ"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "ଚିହ୍ନିତ ସ୍ଥାନ ନୂଆ ୱିଣ୍ଡୋରେ ଖୋଲନ୍ତୁ"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "ଚିହ୍ନିତ ସ୍ଥାନର ନାମ ବଦଳାନ୍ତୁ"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "ଚିହ୍ନିତ ସ୍ଥାନ କାଢ଼ନ୍ତୁ"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "ଏହି ପୃଷ୍ଠା ପାଇଁ %s ନାମକ ଚିହ୍ନିତ ସ୍ଥାନ ପୂର୍ବରୁ ଅଛି."
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "ଏହି ପୃଷ୍ଠା ପାଇଁ <b>%s</b> ନାମକ ଚିହ୍ନିତ ସ୍ଥାନ ପୂର୍ବରୁ ଅଛି."
+ 
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "ସାହାଯ୍ଯ ବିଷୟ"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "ଦଲିଲ ଅଂଶ"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "ପୃଷ୍ଠା ମିଳୁନାହିଁ"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "ଦଲିଲ %s ରେ ପୃଷ୍ଠା %s ମିଳୁନାହିଁ."
+@@ -1113,7 +1113,7 @@ msgstr "ଅଜଣା"
+ msgid "Unknown Error"
+ msgstr "ଅଜଣା ତ୍ରୁଟି"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "ଫାଇଲ ପଢ଼ିହେଲା ନାହିଁ"
+ 
+@@ -1151,13 +1151,11 @@ msgid "Help"
+ msgstr "ସହାୟତା"
+ 
+ #: ../src/yelp-mallard.c:311
+-#| msgid "File not found"
+ msgid "Directory not found"
+ msgstr "ଡିରେକ୍ଟୋରୀ ମିଳୁନାହିଁ"
+ 
+ #: ../src/yelp-mallard.c:312
+ #, c-format
+-#| msgid "The file ‘%s’ does not exist."
+ msgid "The directory ‘%s’ does not exist."
+ msgstr "ଡିରେକ୍ଟୋରୀ '%s' ଅବସ୍ଥିତ ନାହିଁ।"
+ 
+@@ -1299,7 +1297,7 @@ msgstr "TOC ରେ ପୃଷ୍ଠା %s
+ 
+ #: ../src/yelp-toc.c:366
+ msgid "The requested page was not found in the TOC."
+-msgstr "TOC ରେ ଅନୁରୋଧିତ ପୃଷ୍ଠା %s ମିଳିଲା ନାହିଁ."
++msgstr "TOC ରେ ଅନୁରୋଧିତ ପୃଷ୍ଠା ମିଳି ନଥିଲା।"
+ 
+ #: ../src/yelp-toc.c:438
+ msgid ""
+@@ -1484,7 +1482,7 @@ msgstr "ଇ-ଡାକ ଠିକଣା �
+ msgid "Help Browser"
+ msgstr "ସାହାଯ୍ଯ ଖୋଜାଳୀ"
+ 
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "ଧାରଣ..."
+ 
+@@ -1503,39 +1501,39 @@ msgstr "ଅନୁରୋଧିତ URI \"%
+ msgid "Unable to load page"
+ msgstr "ପୃଷ୍ଠା ଧାରଣ କରିବାରେ ଅସମର୍ଥ"
+ 
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+ msgstr "ଖୋଜନ୍ତୁ: (_S)"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "ଅନ୍ଯ ଦଲିଲିକରଣ ଖୋଜନ୍ତୁ"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "ୱିଣ୍ଡୋ ସୃଷ୍ଟି କରିପାରିଲା ନାହିଁ"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "ଖୋଜା ଯନ୍ତ୍ରାଂଶ ସୃଷ୍ଟି କରିପାରିଲା ନାହିଁ"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+ msgstr "ଖୋଜନ୍ତୁ: (_d)"
+ 
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+ msgstr "ପୂର୍ବବର୍ତ୍ତୀ ଖୋଜନ୍ତୁ (_P)"
+ 
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+ msgstr "ପରବର୍ତ୍ତୀ ଖୋଜନ୍ତୁ (_N)"
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "ବାକ୍ୟାଂଶ ମିଳିଲା ନାହିଁ"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1544,15 +1542,15 @@ msgstr "‘%s’ ଫାଇଲ ପଢ଼�
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr "Sudhansu <srujanika@yahoo.com>"
+ 
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+ msgstr "ୟେଲ୍ପ"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "ନୋମ ଡେକ୍ସଟପ ପାଇଁ ଗୋଟିଏ ଦଲିଲିକରଣ ଖୋଜାଳି ଓ ପ୍ରଦର୍ଶକ."
+ 
+diff -up yelp-2.28.1/po/ta.po.el6-translation-updates yelp-2.28.1/po/ta.po
+--- yelp-2.28.1/po/ta.po.el6-translation-updates	2009-11-19 12:09:56.000000000 -0500
++++ yelp-2.28.1/po/ta.po	2010-06-11 17:48:14.881529251 -0400
+@@ -10,20 +10,21 @@
+ # Felix <ifelix@redhat.com>, 2006.
+ # drtvasudevan <agnihot3@gmail.com>, 2006.
+ # Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008, 2009.
+-# I. Felix <ifelix@redhat.com>, 2009.
++# I. Felix <ifelix@redhat.com>, 2009, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: yelp.master.ta\n"
+-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=yelp&component=general\n"
+-"POT-Creation-Date: 2009-08-25 00:40+0000\n"
+-"PO-Revision-Date: 2009-08-26 14:47+0530\n"
+-"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+-"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
++"Report-Msgid-Bugs-To: \n"
++"POT-Creation-Date: 2010-03-29 15:12+0530\n"
++"PO-Revision-Date: 2010-04-15 17:16+0530\n"
++"Last-Translator: \n"
++"Language-Team: Tamil <kde-i18n-doc@kde.org>\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"X-Generator: KBabel 1.11.4\n"
+-"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
++"X-Generator: Lokalize 1.0\n"
++"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
++"\n"
+ "\n"
+ 
+ #: ../data/info.xml.in.h:1
+@@ -878,7 +879,7 @@ msgstr "புத்தகக்கு�
+ 
+ #: ../data/ui/yelp-bookmarks.ui.h:2
+ msgid "Re_name"
+-msgstr "_மறுபெயரிடு"
++msgstr "மறுபெயரிடு (_n)"
+ 
+ #: ../data/ui/yelp-bookmarks.ui.h:3
+ msgid "_Bookmarks:"
+@@ -890,7 +891,7 @@ msgstr "புத்தகக்கு�
+ 
+ #: ../data/ui/yelp-bookmarks-add.ui.h:2
+ msgid "_Title:"
+-msgstr "_தலைப்பு:"
++msgstr "தலைப்பு (_T):"
+ 
+ #: ../data/ui/yelp-open-location.ui.h:1
+ msgid "Open Location"
+@@ -918,11 +919,11 @@ msgstr "நிலையான அகல�
+ 
+ #: ../data/ui/yelp-preferences.ui.h:6
+ msgid "_Use system fonts"
+-msgstr "கணினி _எழுத்துருக்களை பயன்படுத்து"
++msgstr "கணினி எழுத்துருக்களை பயன்படுத்து (_U)"
+ 
+ #: ../data/ui/yelp-preferences.ui.h:7
+ msgid "_Variable width:"
+-msgstr "_மாறும் அகலம்"
++msgstr "மாறும் அகலம் (_V):"
+ 
+ #: ../data/yelp.schemas.in.h:1
+ msgid "Font for fixed text"
+@@ -968,7 +969,6 @@ msgstr "அறியாத பணிம�
+ 
+ #: ../src/eggdesktopfile.c:958
+ #, c-format
+-#| msgid "Settings"
+ msgid "Starting %s"
+ msgstr "%sஐ துவக்குகிறது"
+ 
+@@ -1002,14 +1002,13 @@ msgstr "சேமிக்கப்ப�
+ 
+ #: ../src/eggsmclient.c:228
+ msgid "FILE"
+-msgstr "FILE"
++msgstr "கோப்பு"
+ 
+ #: ../src/eggsmclient.c:231
+ msgid "Specify session management ID"
+ msgstr "அமர்வு மேலாண்மை IDஐ குறிப்பிடு"
+ 
+ #: ../src/eggsmclient.c:231
+-#| msgid "IDEs"
+ msgid "ID"
+ msgstr "ID"
+ 
+@@ -1021,45 +1020,46 @@ msgstr "அமர்வு மேலா�
+ msgid "Show session management options"
+ msgstr "அமர்வு மேலாண்மை விருப்பங்களை காட்டு"
+ 
+-#: ../src/yelp-bookmarks.c:148
++#: ../src/yelp-bookmarks.c:147
+ msgid "Open Bookmark in New Window"
+ msgstr "புத்தகக்குறியை புதிய சாளரத்தில் திறக்கவும்"
+ 
+-#: ../src/yelp-bookmarks.c:152
++#: ../src/yelp-bookmarks.c:151
+ msgid "Rename Bookmark"
+ msgstr "புத்தகக்குறிக்கு மறுபெயரிடு"
+ 
+-#: ../src/yelp-bookmarks.c:156
++#: ../src/yelp-bookmarks.c:155
+ msgid "Remove Bookmark"
+ msgstr "புத்தகக்குறியை நீக்கு"
+ 
+-#: ../src/yelp-bookmarks.c:314
++#: ../src/yelp-bookmarks.c:319
+ #, c-format
+ msgid "A bookmark titled %s already exists for this page."
+ msgstr "ஒரு புத்தகக்குறி தலைப்பு %s ஏற்கனவே இந்த பக்கத்திற்கு உள்ளது."
+ 
+-#: ../src/yelp-bookmarks.c:390
++#: ../src/yelp-bookmarks.c:395
+ #, c-format
+ msgid "A bookmark titled <b>%s</b> already exists for this page."
+ msgstr "ஒரு புத்தகக்குறி தலைப்பு <b>%s</b> ஏற்கனவே இந்த பக்கத்திற்கு உள்ளது."
+ 
+-#: ../src/yelp-bookmarks.c:403
++#: ../src/yelp-bookmarks.c:408
+ msgid "Help Topics"
+ msgstr "உதவி தலைப்புகள்"
+ 
+-#: ../src/yelp-bookmarks.c:418
++#: ../src/yelp-bookmarks.c:423
+ msgid "Document Sections"
+ msgstr "ஆவண பிரிவுகள்"
+ 
+ #: ../src/yelp-db-print.c:258 ../src/yelp-db-print.c:350
+ #: ../src/yelp-docbook.c:275 ../src/yelp-docbook.c:367 ../src/yelp-info.c:243
+-#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-man.c:292
+-#: ../src/yelp-man.c:385 ../src/yelp-toc.c:266 ../src/yelp-toc.c:365
++#: ../src/yelp-info.c:338 ../src/yelp-mallard.c:280 ../src/yelp-mallard.c:380
++#: ../src/yelp-man.c:292 ../src/yelp-man.c:385 ../src/yelp-toc.c:266
++#: ../src/yelp-toc.c:365
+ msgid "Page not found"
+ msgstr "பக்கம் காணப்படவில்லை"
+ 
+ #: ../src/yelp-db-print.c:259 ../src/yelp-docbook.c:276 ../src/yelp-info.c:244
+-#: ../src/yelp-mallard.c:281 ../src/yelp-man.c:293
++#: ../src/yelp-mallard.c:281 ../src/yelp-mallard.c:381 ../src/yelp-man.c:293
+ #, c-format
+ msgid "The page %s was not found in the document %s."
+ msgstr "கேட்ட %s பக்கம் ஆவணம் %s இல் இல்லை"
+@@ -1111,7 +1111,7 @@ msgstr "தெரியாத"
+ msgid "Unknown Error"
+ msgstr "தெரியாத பிழை"
+ 
+-#: ../src/yelp-error.c:136 ../src/yelp-window.c:1710
++#: ../src/yelp-error.c:136 ../src/yelp-window.c:1723
+ msgid "Could Not Read File"
+ msgstr "கோப்பை படிக்க முடியவில்லை"
+ 
+@@ -1207,7 +1207,8 @@ msgstr "\"%s\"க்கு முடி�
+ msgid ""
+ "Try using different words to describe the problem you're having or the topic "
+ "you want help with."
+-msgstr "உதவி தேவையான உங்கள் பிரச்சினை அல்லது தலைப்பை வேறு சொற்களில் விவரித்து முயற்சி செய்."
++msgstr ""
++"உதவி தேவையான உங்கள் பிரச்சினை அல்லது தலைப்பை வேறு சொற்களில் விவரித்து முயற்சி செய்."
+ 
+ #: ../src/yelp-search-parser.c:289
+ #, c-format
+@@ -1332,27 +1333,27 @@ msgstr "நினைவகம் போ�
+ 
+ #: ../src/yelp-window.c:304
+ msgid "_File"
+-msgstr "_க கோப்பு"
++msgstr "கோப்பு (_F)"
+ 
+ #: ../src/yelp-window.c:305
+ msgid "_Edit"
+-msgstr "_த தொகு (_E)"
++msgstr "திருத்துக (_E)"
+ 
+ #: ../src/yelp-window.c:306
+ msgid "_Go"
+-msgstr "_ச செல் "
++msgstr "செல் (_G) "
+ 
+ #: ../src/yelp-window.c:307
+ msgid "_Bookmarks"
+-msgstr "_ப புத்தகக்குறிகள் (_B)"
++msgstr "புத்தகக்குறிகள் (_B)"
+ 
+ #: ../src/yelp-window.c:308
+ msgid "_Help"
+-msgstr "_உதவி"
++msgstr "உதவி (_H)"
+ 
+ #: ../src/yelp-window.c:311
+ msgid "_New Window"
+-msgstr "புதிய _சாளரம்"
++msgstr "புதிய சாளரம் (_N)"
+ 
+ #: ../src/yelp-window.c:316
+ msgid "Print This Document ..."
+@@ -1368,27 +1369,27 @@ msgstr "இந்த ஆவணத்த�
+ 
+ #: ../src/yelp-window.c:331
+ msgid "Open _Location"
+-msgstr "_இடத்தைத் திற"
++msgstr "இடத்தைத் திற (_L)"
+ 
+ #: ../src/yelp-window.c:336
+ msgid "_Close Window"
+-msgstr "சாளரத்தை மூடு"
++msgstr "சாளரத்தை மூடு (_C)"
+ 
+ #: ../src/yelp-window.c:342
+ msgid "_Copy"
+-msgstr "நகல்"
++msgstr "நகலெடு (_C)"
+ 
+ #: ../src/yelp-window.c:348
+ msgid "_Select All"
+-msgstr "அனைத்தையும் தேர்ந்தெடு"
++msgstr "அனைத்தையும் தேர்ந்தெடு (_S)"
+ 
+ #: ../src/yelp-window.c:353
+ msgid "_Find..."
+-msgstr "தேடு..."
++msgstr "தேடு (_F)..."
+ 
+ #: ../src/yelp-window.c:358
+ msgid "Find Pre_vious"
+-msgstr "முந்தையதை தேடு"
++msgstr "முந்தையதை தேடு (_v)"
+ 
+ #: ../src/yelp-window.c:360
+ msgid "Find previous occurrence of the word or phrase"
+@@ -1396,7 +1397,7 @@ msgstr "சொல் அல்லத�
+ 
+ #: ../src/yelp-window.c:363
+ msgid "Find Ne_xt"
+-msgstr "அடுத்ததை தேடு"
++msgstr "அடுத்ததை தேடு (_x)"
+ 
+ #: ../src/yelp-window.c:365
+ msgid "Find next occurrence of the word or phrase"
+@@ -1404,15 +1405,15 @@ msgstr "சொல் அல்லத�
+ 
+ #: ../src/yelp-window.c:368
+ msgid "_Preferences"
+-msgstr "முன்னுரிமைகள்"
++msgstr "முன்னுரிமைகள் (_P)"
+ 
+ #: ../src/yelp-window.c:373
+ msgid "_Reload"
+-msgstr "மீளேற்று"
++msgstr "மீளேற்று (_R)"
+ 
+ #: ../src/yelp-window.c:385
+ msgid "_Back"
+-msgstr "பின்னோக்கு "
++msgstr "பின் (_B)"
+ 
+ #: ../src/yelp-window.c:387
+ msgid "Show previous page in history"
+@@ -1420,7 +1421,7 @@ msgstr "வரலாறில் மு�
+ 
+ #: ../src/yelp-window.c:390
+ msgid "_Forward"
+-msgstr "முன்னோக்கு"
++msgstr "முன்னால் (_F)"
+ 
+ #: ../src/yelp-window.c:392
+ msgid "Show next page in history"
+@@ -1428,7 +1429,7 @@ msgstr "வரலாறில் அட�
+ 
+ #: ../src/yelp-window.c:395
+ msgid "_Help Topics"
+-msgstr "_உதவி தலைப்புகள்"
++msgstr "உதவி தலைப்புகள் (_H)"
+ 
+ #: ../src/yelp-window.c:397
+ msgid "Go to the listing of help topics"
+@@ -1436,35 +1437,35 @@ msgstr "உதவி தலைப்ப�
+ 
+ #: ../src/yelp-window.c:400
+ msgid "_Previous Section"
+-msgstr "முந்தைய பிரிவு"
++msgstr "முந்தைய பிரிவு (_P)"
+ 
+ #: ../src/yelp-window.c:405
+ msgid "_Next Section"
+-msgstr "_அடுத்த பிரிவு "
++msgstr "அடுத்த பிரிவு (_N)"
+ 
+ #: ../src/yelp-window.c:410 ../src/yelp-window.c:442
+ msgid "_Contents"
+-msgstr "_உள்ளடக்கங்கள்"
++msgstr "உள்ளடக்கங்கள் (_C)"
+ 
+ #: ../src/yelp-window.c:416
+ msgid "_Add Bookmark"
+-msgstr "புத்தகக்குறியை சேர்"
++msgstr "புத்தகக்குறி சேர் (_A)"
+ 
+ #: ../src/yelp-window.c:421
+ msgid "_Edit Bookmarks..."
+-msgstr "_த புத்தகக்குறிகளை திருத்து..."
++msgstr "புத்தகக்குறிகளை திருத்து (_E)..."
+ 
+ #: ../src/yelp-window.c:427
+ msgid "_Open Link"
+-msgstr "_த இணைப்பினை திற"
++msgstr "இணைப்பினை திற (_O)"
+ 
+ #: ../src/yelp-window.c:432
+ msgid "Open Link in _New Window"
+-msgstr "_ப புதிய சாளரத்தில் இணைப்பினை திற "
++msgstr "புதிய சாளரத்தில் இணைப்பினை திற  (_N)"
+ 
+ #: ../src/yelp-window.c:437
+ msgid "_Copy Link Address"
+-msgstr "_ந இணைப்பு முகவரியை நகலெடு"
++msgstr "இணைப்பு முகவரியை நகலெடு (_C)"
+ 
+ #: ../src/yelp-window.c:444
+ msgid "Help On this application"
+@@ -1472,17 +1473,17 @@ msgstr "இந்த பயன்பா�
+ 
+ #: ../src/yelp-window.c:447
+ msgid "_About"
+-msgstr "இதனைப் _பற்றி"
++msgstr "பற்றி (_A)"
+ 
+ #: ../src/yelp-window.c:452
+ msgid "Copy _Email Address"
+-msgstr "_ம மின்னஞ்சல் முகவரியை நகலெடு"
++msgstr "மின்னஞ்சல் முகவரியை நகலெடு (_E)"
+ 
+ #: ../src/yelp-window.c:524
+ msgid "Help Browser"
+ msgstr "உதவி உலாவி"
+ 
+-#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1772
++#: ../src/yelp-window.c:619 ../src/yelp-window.c:671 ../src/yelp-window.c:1785
+ msgid "Loading..."
+ msgstr "ஏற்றப்படுகின்றது..."
+ 
+@@ -1501,39 +1502,39 @@ msgstr "வேண்டிய யூஆ�
+ msgid "Unable to load page"
+ msgstr "பக்கத்தை ஏற்ற முடியவில்லை"
+ 
+-#: ../src/yelp-window.c:1330
++#: ../src/yelp-window.c:1343
+ msgid "_Search:"
+-msgstr "_த தேடு:"
++msgstr "தேடு (_S):"
+ 
+-#: ../src/yelp-window.c:1331
++#: ../src/yelp-window.c:1344
+ msgid "Search for other documentation"
+ msgstr "வேறு ஆவணங்களை தேடு"
+ 
+-#: ../src/yelp-window.c:1351
++#: ../src/yelp-window.c:1364
+ msgid "Cannot create window"
+ msgstr "சாளரத்தை உருவாக்க முடியாது"
+ 
+-#: ../src/yelp-window.c:1357
++#: ../src/yelp-window.c:1370
+ msgid "Cannot create search component"
+ msgstr "தேடுதல் கூறை உருவாக்க முடியாது"
+ 
+-#: ../src/yelp-window.c:1529
++#: ../src/yelp-window.c:1542
+ msgid "Fin_d:"
+-msgstr "கண்டுபிடி:"
++msgstr "கண்டுபிடி (_d):"
+ 
+-#: ../src/yelp-window.c:1551
++#: ../src/yelp-window.c:1564
+ msgid "Find _Previous"
+-msgstr "முந்தையதை தேடு"
++msgstr "முந்தையதை தேடு (_P)"
+ 
+-#: ../src/yelp-window.c:1563
++#: ../src/yelp-window.c:1576
+ msgid "Find _Next"
+-msgstr "அடுத்ததை தேடு"
++msgstr "அடுத்ததை தேடு (_N)"
+ 
+-#: ../src/yelp-window.c:1576
++#: ../src/yelp-window.c:1589
+ msgid "Phrase not found"
+ msgstr "சொற்றொடர் கண்டு பிடிக்கப் படவில்லை"
+ 
+-#: ../src/yelp-window.c:1707
++#: ../src/yelp-window.c:1720
+ #, c-format
+ msgid ""
+ "The file ‘%s’ could not be read.  This file might be missing, or you might "
+@@ -1544,17 +1545,17 @@ msgstr ""
+ 
+ #. Note to translators: put here your name (and address) so it
+ #. * will show up in the "about" box
+-#: ../src/yelp-window.c:2577
++#: ../src/yelp-window.c:2602
+ msgid "translator-credits"
+ msgstr ""
+ "Dinesh Nadarajah <dinesh_list@sbcglobal.net> 2004, Felix <ifelix25@gmail."
+ "com> 2006, drtvasudevan <agnihot3@gmail.com> 2006."
+ 
+-#: ../src/yelp-window.c:2580
++#: ../src/yelp-window.c:2605
+ msgid "Yelp"
+-msgstr "யெல்ப்"
++msgstr "Yelp"
+ 
+-#: ../src/yelp-window.c:2582
++#: ../src/yelp-window.c:2607
+ msgid "A documentation browser and viewer for the Gnome Desktop."
+ msgstr "ஆவணங்கள் உலாவி மற்றும் நோம் மேல்மேசைக்கு காட்சியாளன்."
+ 
