@@ -1,5 +1,5 @@
 %{?rhel:  %define WITH_MONO 0}
-%{?!WITH_MONO:  %define WITH_MONO 1}
+#{?!WITH_MONO:  %define WITH_MONO 1}
 %ifarch ppc64 s390 s390x
 %define WITH_MONO 0
 %endif
@@ -20,7 +20,7 @@
 Summary: Help browser for the GNOME desktop
 Name: yelp
 Version: 2.28.1
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source: http://download.gnome.org/sources/yelp/2.28/%{name}-%{version}.tar.bz2
 URL: http://live.gnome.org/Yelp
 Patch1: yelp-2.15.5-fedora-docs.patch
@@ -174,6 +174,9 @@ update-desktop-database &> /dev/null ||:
 %{_datadir}/yelp
 
 %changelog
+* Fri Oct 14 2011 Clint Savage <clint@gooseproject.org> - 2.28.1-9
+- Remove dependency on libbeagle-devel
+
 * Fri Aug 27 2010 Jan Horak <jhorak@redhat.com> - 2.28.1-8
 - Rebuild against newer gecko
 
