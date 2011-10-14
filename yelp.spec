@@ -1,9 +1,3 @@
-%{?rhel:  %define WITH_MONO 0}
-#{?!WITH_MONO:  %define WITH_MONO 1}
-%ifarch ppc64 s390 s390x
-%define WITH_MONO 0
-%endif
-
 %define gnome_doc_utils_version 0.17.2
 %define gtk2_version 2.10.0
 %define libglade_version 2.0.0
@@ -81,11 +75,6 @@ BuildRequires: rarian-devel >= %{rarian_version}
 BuildRequires: intltool
 BuildRequires: gnome-common
 BuildRequires: automake autoconf libtool
-
-
-%if %{WITH_MONO}
-BuildRequires: libbeagle-devel
-%endif
 
 %description
 Yelp is the help browser for the GNOME desktop. It is designed
@@ -175,7 +164,7 @@ update-desktop-database &> /dev/null ||:
 
 %changelog
 * Fri Oct 14 2011 Clint Savage <clint@gooseproject.org> - 2.28.1-9
-- Remove dependency on libbeagle-devel
+- Remove dependency on libbeagle-devel and WITH_MONO macro
 
 * Fri Aug 27 2010 Jan Horak <jhorak@redhat.com> - 2.28.1-8
 - Rebuild against newer gecko
