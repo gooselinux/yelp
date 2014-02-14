@@ -14,7 +14,7 @@
 Summary: Help browser for the GNOME desktop
 Name: yelp
 Version: 2.28.1
-Release: 9%{?dist}
+Release: 8%{?dist}.goose.1
 Source: http://download.gnome.org/sources/yelp/2.28/%{name}-%{version}.tar.bz2
 URL: http://live.gnome.org/Yelp
 Patch1: yelp-2.15.5-fedora-docs.patch
@@ -163,7 +163,7 @@ update-desktop-database &> /dev/null ||:
 %{_datadir}/yelp
 
 %changelog
-* Fri Oct 14 2011 Clint Savage <clint@gooseproject.org> - 2.28.1-9
+* Fri Oct 14 2011 Clint Savage <clint@gooseproject.org> - 2.28.1-8.goose.1
 - Remove dependency on libbeagle-devel and WITH_MONO macro
 
 * Fri Aug 27 2010 Jan Horak <jhorak@redhat.com> - 2.28.1-8
